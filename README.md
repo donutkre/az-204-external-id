@@ -249,7 +249,7 @@ When you run the script, it asks you for:
 4. **C# project folder** (default `ExternalIdDemo`)
 5. **HTTPS port** (default `7273`)
 
-Press **Enter** at any prompt to keep the default. Nothing is hardcoded with `kty`-style names — every name is yours to pick.
+Press **Enter** at any prompt to keep the default.
 
 ### Tweakable env vars (optional — skip prompts)
 
@@ -306,7 +306,7 @@ Use this when you've done the portal walkthrough yourself and want to see the C#
 In this folder:
 
 ```bash
-cd /Users/kty/Source/Identity
+cd /Users/Dir/Source/Identity
 ```
 ```bash
 dotnet new mvc --auth SingleOrg -o ExternalIdDemo --name ExternalIdDemo --client-id <APP-ID> --tenant-id <TENANT-ID> --domain <YOURTENANT>.onmicrosoft.com
@@ -390,7 +390,7 @@ Lets *see* what's in the ID token:
 ## 🚀 Run the app
 
 ```bash
-cd /Users/kty/Source/Identity/ExternalIdDemo
+cd /Users/Dir/Source/Identity/ExternalIdDemo
 dotnet run --launch-profile https
 ```
 
